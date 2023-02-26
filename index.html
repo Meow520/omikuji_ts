@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omikuji</title>
+    <link rel="stylesheet" href="public/style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div>
+      <p class="title">おみくじ</p>
+    </div>
+    <div>
+      <p id="explain">おみくじを回して運勢を占う</p>
+      <div id="animation">
+        <img src="./public/omikuji.jpeg" alt="omikuji" />
+      </div>
+      <input type="button" value="始める" id="start" />
+    </div>
+    <div id="output" hidden>
+      <p id="result"></p>
+      <div class="buttons">
+        <input type="button" value="もう一度回す" id="restart" />
+        <input type="button" value="終了" id="quit" />
+      </div>
+    </div>
+  </body>
+</html>

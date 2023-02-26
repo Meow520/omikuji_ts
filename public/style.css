@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+body {
+    font-family: 'Yuji Syuku', serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 100px;
+}
+#explain {
+    font-size: 30px;
+    margin:40px 0px 80px;
+}
+
+input {
+    background-color: #fff;
+    border:none;
+    font-family: 'Yuji Syuku', serif;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+input:hover{
+    color: rgb(127, 0, 0);
+}
+
+#result {
+    font-size: 60px;
+    color: rgb(184, 0, 0);
+}
+
+@keyframes omikuji {
+    0%{
+        transform: rotate(135deg);
+    }
+    50%{
+        transform: rotate(155deg);
+    }
+    100%{
+        transform: rotate(135deg);
+    }
+}
+
+.loading{
+    animation-name: omikuji;
+    animation-iteration-count: 2;
+    animation-duration: 1500ms;
+
+}
